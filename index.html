@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resim İndirme Sitesi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+      }
+      .gallery img {
+        max-width: 300px;
+        margin: 10px;
+      }
+      .gallery a {
+        display: block;
+        text-align: center;
+        color: #333;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+      }
+      .gallery a:hover {
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resim İndirme Sitesi</h1>
+    <div class="gallery">
+      <img src="1.png" alt="Resim 1">
+      <a href="1.png" download>1.png indir</a>
+      <img src="2.png" alt="Resim 2">
+      <a href="2.png" download>2.png indir</a>
+      <img src="3.png" alt="Resim 3">
+      <a href="3.png" download>3.png indir</a>
+      <img src="4.png" alt="Resim 4">
+      <a href="4.png" download>4.png indir</a>
+    </div>
+  </body>
+</html>
